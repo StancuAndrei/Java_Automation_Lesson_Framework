@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/AndStancu/IdeaProjects/AutomationLesson2">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+            <class name="testcases.HomepageTests">
+                <methods>
+                    <include name="check_drop_down_box"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginpageTests">
+                <methods>
+                    <include name="check_login_button"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

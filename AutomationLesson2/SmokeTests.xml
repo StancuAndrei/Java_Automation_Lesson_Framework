@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+
+    <test verbose="2" preserve-order="true" name="Smoking">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="testcases.HomepageTests"/>
+            <class name="testcases.LoginpageTests"/>
+
+        </classes>
+    </test>
+</suite>
